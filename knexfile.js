@@ -12,7 +12,7 @@ module.exports = {
 
   // configuration for the production environment db connection
   production: {
-    client: "postgresql",
+    client: "pg",
     connection: {
       database: "my_db",
       user: "username",
